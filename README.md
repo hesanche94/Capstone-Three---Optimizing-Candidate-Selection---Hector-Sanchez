@@ -14,11 +14,11 @@ Hiring and operations managers often struggle to find high-quality candidates. M
 ✔️ Perform data preprocessing, feature engineering, and model evaluation.
 ✔️ Identify the best-performing model through hyperparameter tuning and evaluation metrics.
 
-## **📊 Dataset Overview**
+## 📊 **Dataset Overview**
 
-Dataset Name: Recruitment Data DatasetAuthor: Rabie El Kharoua (Synthetic dataset for educational purposes)
+**Dataset Name:** Recruitment Data DatasetAuthor: Rabie El Kharoua (Synthetic dataset for educational purposes)
 
-Key Features
+**Key Features**
 
 Demographics: Age, Gender, DistanceFromCompany
 
@@ -28,49 +28,29 @@ Experience: ExperienceYears, PreviousCompaniesWorked
 
 Target Variable: HiringDecision (1 = Hired, 0 = Not Hired)
 
-Feature Breakdown
+**Feature Breakdown**
 
-Feature
+Feature -->  Description
 
-Description
+Age -->  Candidate's age
 
-Age
+Gender -->  Male (0), Female (1)
 
-Candidate's age
+EducationLevel -->  0 = No Formal Education, 1 = Bachelor's Type 1, 2 = Bachelor's Type 2, 3 = Master's, 4 = PhD
 
-Gender
+ExperienceYears -->  Years of work experience
 
-Male (0), Female (1)
+PreviousCompaniesWorked -->  Number of companies a candidate worked at previously
 
-EducationLevel
+DistanceFromCompany -->  Distance (in miles) from the company
 
-0 = No Formal Education, 1 = Bachelor's Type 1, 2 = Bachelor's Type 2, 3 = Master's, 4 = PhD
+InterviewScore, SkillScore, PersonalityScore -->  Evaluation scores (0-100)
 
-ExperienceYears
+RecruitmentStrategy -->  0 = Undefined, 1 = Aggressive, 2 = Moderate, 3 = Conservative
 
-Years of work experience
+HiringDecision -->  Target variable (0 = No, 1 = Yes)
 
-PreviousCompaniesWorked
-
-Number of companies a candidate worked at previously
-
-DistanceFromCompany
-
-Distance (in miles) from the company
-
-InterviewScore, SkillScore, PersonalityScore
-
-Evaluation scores (0-100)
-
-RecruitmentStrategy
-
-0 = Undefined, 1 = Aggressive, 2 = Moderate, 3 = Conservative
-
-HiringDecision
-
-Target variable (0 = No, 1 = Yes)
-
-🛠 Data Processing & Feature Engineering
+## 🛠 **Data Processing & Feature Engineering**
 
 ✅ Missing Values: No missing values in the dataset.✅ Feature Mapping: Converted Gender and EducationLevel into human-readable labels.✅ One-Hot Encoding: Applied to RecruitmentStrategy.✅ Feature Scaling: Standardized numerical features (Age, InterviewScore).
 
