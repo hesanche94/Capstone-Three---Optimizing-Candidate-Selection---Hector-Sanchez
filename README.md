@@ -18,7 +18,7 @@ Hiring and operations managers often struggle to find high-quality candidates. M
 
 **Dataset Name:** Recruitment Data DatasetAuthor: Rabie El Kharoua (Synthetic dataset for educational purposes)
 
-**Key Features**
+**Key Features:**
 
 Demographics: Age, Gender, DistanceFromCompany
 
@@ -28,7 +28,7 @@ Experience: ExperienceYears, PreviousCompaniesWorked
 
 Target Variable: HiringDecision (1 = Hired, 0 = Not Hired)
 
-**Feature Breakdown**
+**Feature Breakdown:**
 
 Feature -->  Description
 
@@ -50,13 +50,16 @@ RecruitmentStrategy -->  0 = Undefined, 1 = Aggressive, 2 = Moderate, 3 = Conser
 
 HiringDecision -->  Target variable (0 = No, 1 = Yes)
 
-## 🛠 **Data Processing & Feature Engineering**
+## 🛠 **Data Processing & Feature Engineering:**
 
-✅ Missing Values: No missing values in the dataset.✅ Feature Mapping: Converted Gender and EducationLevel into human-readable labels.✅ One-Hot Encoding: Applied to RecruitmentStrategy.✅ Feature Scaling: Standardized numerical features (Age, InterviewScore).
+✅ Missing Values: No missing values in the dataset.
+✅ Feature Mapping: Converted Gender and EducationLevel into human-readable labels.
+✅ One-Hot Encoding: Applied to RecruitmentStrategy.
+✅ Feature Scaling: Standardized numerical features (Age, InterviewScore).
 
-📈 Exploratory Data Analysis (EDA)
+## 📈 **Exploratory Data Analysis (EDA):**
 
-🔍 Key Insights
+🔍 **Key Insights**
 
 Positive Correlation with Hiring: Candidates with higher Interview, Personality, and Skill Scores had a greater chance of being hired.
 
@@ -66,13 +69,16 @@ Education Level Impact: Candidates with a Master’s degree or PhD were more lik
 
 Distance from Company had little impact on hiring decisions.
 
-📊 Visualizations
+## 📊 **Visualizations**
 
-✔️ Histograms for Age, ExperienceYears, PreviousCompaniesWorked, InterviewScore, SkillScore, and PersonalityScore.✔️ Bar Plots for categorical features (Gender, EducationLevel, RecruitmentStrategy).✔️ Correlation Heatmap to analyze relationships between features.✔️ Box Plots to examine feature relationships with HiringDecision.
+✔️ Histograms for Age, ExperienceYears, PreviousCompaniesWorked, InterviewScore, SkillScore, and PersonalityScore.
+✔️ Bar Plots for categorical features (Gender, EducationLevel, RecruitmentStrategy).
+✔️ Correlation Heatmap to analyze relationships between features.
+✔️ Box Plots to examine feature relationships with HiringDecision.
 
-🚀 Model Development
+## 🚀 **Model Development**
 
-Machine Learning Approach
+**Machine Learning Approach:**
 
 Built and compared multiple models to predict hiring decisions.
 
@@ -80,13 +86,14 @@ Performed hyperparameter tuning to optimize model performance.
 
 Evaluated models based on accuracy, precision, recall, and F1-score.
 
-Best Performing Model
+**Best Performing Model**
 
-🔹 Model Selected: ✅ Best Random Forest 🔹 Key Metrics:✔️ Accuracy: 92.3%✔️ Precision: 88.7%✔️ Recall: 83.5%✔️ F1-score: 86.1%
+🔹 Model Selected: ✅ Best Random Forest 
+🔹 Key Metrics:✔️ Accuracy: 92.3%  ✔️ Precision: 88.7%  ✔️ Recall: 83.5%  ✔️ F1-score: 86.1%
 
-🎯 Conclusion & Next Steps
+## 🎯 **Conclusion & Next Steps**
 
-📌 Key Takeaways:
+📌 **Key Takeaways:**
 
 Candidates with higher interview, skill, and personality scores have a greater chance of being hired.
 
@@ -94,7 +101,7 @@ Aggressive recruitment strategies yield higher hiring rates.
 
 Educational background plays a role in hiring decisions, with a preference for Master’s and PhD candidates.
 
-📌 Future Work:
+📌 **Future Work:**
 
 Expand dataset to include real-world recruitment data.
 
@@ -102,7 +109,7 @@ Implement deep learning models for enhanced accuracy.
 
 Incorporate a Cost Analysis of hiring decisions.
 
-💡 How to Use This Project
+💡 **How to Use This Project**
 
 1️⃣ Clone this repository:
 
@@ -116,8 +123,10 @@ pip install -r requirements.txt
 
 python train_model.py
 
-📬 Connect with Me
+# 📬 **Connect with Me:**
 
-💼 LinkedIn: www.linkedin.com/in/hechector-sanchez-skaggs📧 Email: h.sanche94@gmail.com📂 Portfolio: https://github.com/hesanche94
+💼 LinkedIn: www.linkedin.com/in/hechector-sanchez-skaggs
+📧 Email: h.sanche94@gmail.com
+📂 Portfolio: https://github.com/hesanche94
 
-⭐ If you found this project helpful, please consider giving it a star on GitHub! ⭐
+⭐ **If you found this project helpful, please consider giving it a star on GitHub!** ⭐
