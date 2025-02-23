@@ -1,6 +1,4 @@
 
-# Casptone-Three---Optimizing-Candidate-Selection---Hector-Sanchez
-
 # 📌 **Optimizing Candidate Selection Using Recruitment Data**
 
 ## 📖 **Introduction**
