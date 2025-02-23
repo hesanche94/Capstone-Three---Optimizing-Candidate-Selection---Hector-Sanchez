@@ -11,7 +11,9 @@ Hiring and operations managers often struggle to find high-quality candidates. M
 **Project Objective**
 
 ✔️ Build a predictive model that classifies whether a candidate is likely to be hired.
+
 ✔️ Perform data preprocessing, feature engineering, and model evaluation.
+
 ✔️ Identify the best-performing model through hyperparameter tuning and evaluation metrics.
 
 ## 📊 **Dataset Overview**
@@ -53,8 +55,11 @@ HiringDecision -->  Target variable (0 = No, 1 = Yes)
 ## 🛠 **Data Processing & Feature Engineering:**
 
 ✅ Missing Values: No missing values in the dataset.
+
 ✅ Feature Mapping: Converted Gender and EducationLevel into human-readable labels.
+
 ✅ One-Hot Encoding: Applied to RecruitmentStrategy.
+
 ✅ Feature Scaling: Standardized numerical features (Age, InterviewScore).
 
 ## 📈 **Exploratory Data Analysis (EDA):**
@@ -72,8 +77,11 @@ Distance from Company had little impact on hiring decisions.
 ## 📊 **Visualizations**
 
 ✔️ Histograms for Age, ExperienceYears, PreviousCompaniesWorked, InterviewScore, SkillScore, and PersonalityScore.
+
 ✔️ Bar Plots for categorical features (Gender, EducationLevel, RecruitmentStrategy).
+
 ✔️ Correlation Heatmap to analyze relationships between features.
+
 ✔️ Box Plots to examine feature relationships with HiringDecision.
 
 ## 🚀 **Model Development**
@@ -126,7 +134,9 @@ python train_model.py
 # 📬 **Connect with Me:**
 
 💼 LinkedIn: www.linkedin.com/in/hechector-sanchez-skaggs
+
 📧 Email: h.sanche94@gmail.com
+
 📂 Portfolio: https://github.com/hesanche94
 
 ⭐ **If you found this project helpful, please consider giving it a star on GitHub!** ⭐
