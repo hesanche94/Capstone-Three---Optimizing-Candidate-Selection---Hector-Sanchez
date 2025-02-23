@@ -117,19 +117,6 @@ Implement deep learning models for enhanced accuracy.
 
 Incorporate a Cost Analysis of hiring decisions.
 
-💡 **How to Use This Project**
-
-1️⃣ Clone this repository:
-
-git clone https://github.com/https://github.com/hesanche94.git
-
-2️⃣ Install dependencies:
-
-pip install -r requirements.txt
-
-3️⃣ Run the model:
-
-python train_model.py
 
 # 📬 **Connect with Me:**
 
