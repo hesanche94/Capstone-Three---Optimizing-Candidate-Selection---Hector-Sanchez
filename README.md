@@ -1,20 +1,20 @@
 # Casptone-Three---Optimizing-Candidate-Selection---Hector-Sanchez
 
-📌 Optimizing Candidate Selection Using Recruitment Data
+# 📌 **Optimizing Candidate Selection Using Recruitment Data**
 
-📖 Introduction
+## 📖 **Introduction**
 
-Problem Statement
+**Problem Statement**
 
 Hiring and operations managers often struggle to find high-quality candidates. Many hiring decisions are made out of desperation due to staffing issues, which can negatively impact business performance. This project aims to develop a predictive model that can identify the most hireable candidates, helping managers streamline their recruitment process and focus on high-potential applicants.
 
-Project Objective
+**Project Objective**
 
 ✔️ Build a predictive model that classifies whether a candidate is likely to be hired.
 ✔️ Perform data preprocessing, feature engineering, and model evaluation.
 ✔️ Identify the best-performing model through hyperparameter tuning and evaluation metrics.
 
-📊 Dataset Overview
+## **📊 Dataset Overview**
 
 Dataset Name: Recruitment Data DatasetAuthor: Rabie El Kharoua (Synthetic dataset for educational purposes)
 
