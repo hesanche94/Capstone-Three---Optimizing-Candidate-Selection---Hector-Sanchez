@@ -1,3 +1,6 @@
+
+![thought-catalog-505eectW54k-unsplash](https://github.com/user-attachments/assets/a3dce493-7725-4eb6-a03f-cb5af788c2da)
+
 # Casptone-Three---Optimizing-Candidate-Selection---Hector-Sanchez
 
 # 📌 **Optimizing Candidate Selection Using Recruitment Data**
