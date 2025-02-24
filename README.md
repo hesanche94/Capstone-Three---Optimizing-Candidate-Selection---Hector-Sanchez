@@ -1,3 +1,4 @@
+![28998050_2205_w046_n004_127a_p1_127](https://github.com/user-attachments/assets/2d38b497-e58c-4c30-9b3e-97a4df6c1ab2)
 
 # 📌 **Optimizing Candidate Selection Using Recruitment Data**
 
